@@ -47,7 +47,7 @@
             @enduser
 
             <div class="card radiant-back">
-                <div class="card-header"><h2>Schwartz Guilds</h2></div>
+                <div class="card-header"><h2>Oranje Guilds</h2></div>
 
                 <div class="card-body">
                     <div class="guild-list">

@@ -41,7 +41,7 @@
             </div>
 
             <div class="card death-star-grid">
-                <div class="card-header"><h1>Schwartz Guilds</h1></div>
+                <div class="card-header"><h1>Oranje Guilds</h1></div>
 
                 <div class="card-body">
 

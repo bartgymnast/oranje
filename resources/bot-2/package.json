@@ -1,7 +1,7 @@
 {
-  "name": "schwartz-bot",
+  "name": "oranjebot",
   "version": "1.0.0",
-  "description": "The Schwartzies discord bot",
+  "description": "Oranje Communitie discord bot",
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -9,7 +9,7 @@
     "build": "tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
   },
-  "author": "Matthew Hillman",
+  "author": "Bart van der Hall",
   "license": "ISC",
   "dependencies": {
     "better-sqlite3": "^7.1.2",

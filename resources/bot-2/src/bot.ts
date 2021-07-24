@@ -39,7 +39,7 @@ export class Bot {
         // for guildMemberAdd to actually work the first time a role is changed
         const botServer = await this.client.guilds.fetch(this.settings.config.botGuild);
         await botServer.members.fetch();
-        console.log(`Schwartz fetched ${botServer.name} ${botServer.nameAcronym}`);
+        console.log(`Oranje fetched ${botServer.name} ${botServer.nameAcronym}`);
 
         const db = await this.dbPool.connect();
         let total = 0;

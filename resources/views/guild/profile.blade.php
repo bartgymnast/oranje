@@ -40,7 +40,7 @@
                 @if(!is_null($guild->id))
                 <div class="card-body">
                     <h2>{{ $guild->name }}</h2>
-                    <div class="small-note">Defeine the ID of the discord server where your guild roles are defined. These roles are used to authorize other guild-related actions.</div>
+                    <div class="small-note">Define the ID of the discord server where your guild roles are defined. These roles are used to authorize other guild-related actions.</div>
 
                     <auto-text-field :route="`{{ route('guild.profile.update', ['guild' => $guild->id, 'prop' => 'server_id']) }}`" :label="`Server ID`" :value="`{{ $guild->server_id }}`"></auto-text-field>
                     <auto-text-field :route="`{{ route('guild.profile.update', ['guild' => $guild->id, 'prop' => 'admin_channel']) }}`" :label="`Admin Channel ID`" :value="`{{ $guild->admin_channel }}`"></auto-text-field>

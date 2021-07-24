@@ -48,9 +48,9 @@
             </div>
             <div class="content-title">Join Us</div>
             <div>
-                <p>Connect to The Scwartzies</p>
+                <p>Connect to Oranje Discord</p>
                 <discord-widget
-                    :server="'316691456204996608'"
+                    :server="'678612623243214878'"
                     :invite="'KZ5tvRU'"
                 >
                     @include('shared.discord')
